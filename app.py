@@ -65,7 +65,7 @@ with st.form("FW rule", clear_on_submit=True):
     current_datetime = datetime.combine(datetime.today(), start_time)
 
     # Subtract one hour
-    new_datetime = current_datetime - timedelta(hours=1)
+    new_datetime = current_datetime - timedelta(hours=2)
 
     # Extract the time part if needed
     start_time = new_datetime.time()
@@ -74,7 +74,7 @@ with st.form("FW rule", clear_on_submit=True):
     end_time = st.time_input("End Time")
 
     current_datetime = datetime.combine(datetime.today(), end_time)
-    new_datetime = current_datetime - timedelta(hours=1)
+    new_datetime = current_datetime - timedelta(hours=2)
     end_time = new_datetime.time()
 
     submitted = st.form_submit_button("Submit")
