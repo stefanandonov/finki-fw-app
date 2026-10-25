@@ -1,0 +1,20 @@
+timezone: Europe/Skopje
+profile: "SP_OOP_labs"
+
+# Green cells are active. Orange cells are in schedule-sp-int.yaml.
+# Pale-green, pink and red cells are commented out at the bottom: uncomment the ones you want.
+subjects:
+  - name: SP-labs
+    slots:
+      # Monday: Бобан+Петар, Алан+Петар, Алан+Петар, Петар (1/2), merged
+      - {lab: "Лабораторија 13 - ТМФ", day: mon, from: "14:00", to: "20:00"}
+      # Wednesday: Ева+Матеа, Давид+Стефан, merged
+      - {lab: "Лабораторија 13 - ТМФ", day: wed, from: "17:00", to: "20:00"}
+      # Friday
+      - {lab: "Лабораторија 2 - ТМФ",  day: fri, from: "08:00", to: "09:30"}
+      - {lab: "Лабораторија 13 - ТМФ", day: fri, from: "09:30", to: "14:00"}   # Ева+Матеа, Андреј+Петар, Ема+Алан
+      - {lab: "Лабораторија 13 - ТМФ", day: fri, from: "18:30", to: "20:00"}   # Петар (1/2)
+      # Not included:
+      # - {lab: "Лабораторија 215 - ТМФ", day: thu, from: "12:30", to: "14:00"}   # pale green: Влатко+Ева
+      # - {lab: "Лабораторија 13 - ТМФ",  day: wed, from: "14:00", to: "15:30"}   # pink: Матеа+Алан
+      # - {lab: "Лабораторија 13 - ТМФ",  day: wed, from: "15:30", to: "17:00"}   # red: Виктор+Матеа

@@ -1,0 +1,5 @@
+.git
+finki-fw-app
+schedule.yaml
+*.log
+__pycache__

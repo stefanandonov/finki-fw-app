@@ -1,0 +1,10 @@
+# Copy to schedule.yaml. Lab/profile names must match `python cli.py list-labs` / `list-profiles`.
+timezone: Europe/Skopje
+profile: Default Profile          # optional global default
+subjects:
+  - name: WP
+    profile: Some Profile         # optional subject-level override
+    slots:
+      - {lab: Lab 1, day: mon, from: "10:00", to: "12:00"}
+      - {lab: Lab 2, day: mon, from: "12:00", to: "14:00"}
+      - {lab: [Lab 1, Lab 3], day: wed, from: "14:00", to: "16:00", profile: Other Profile}

@@ -1,0 +1,11 @@
+timezone: Europe/Skopje
+profile: "SP_OOP_labs"
+
+# Only the orange cells (Tue and Thu, Лаб 13). Green, pink and red cells are skipped.
+subjects:
+  - name: SP-int-labs
+    slots:
+      # Tuesday: Игор + Ева, then Игор + Пецка
+      - {lab: "Лабораторија 13 - ТМФ", day: tue, from: "11:00", to: "14:00"}
+      # Thursday: Ева + Матеа (two cells merged)
+      - {lab: "Лабораторија 13 - ТМФ", day: thu, from: "09:30", to: "12:30"}

@@ -1,0 +1,22 @@
+timezone: Europe/Skopje
+profile: "SP_OOP_labs"
+
+# Only the blue and yellow cells. Black cells and the Friday "аудиториски" block are skipped.
+# NOTE: "Лаб 200" in the picture is not in the lab list. Assumed to be 200аб (200в is a separate column on Monday).
+subjects:
+  - name: NP-labs
+    slots:
+      # Monday
+      - {lab: "Лабораторија 200в  - ТМФ", day: mon, from: "08:00", to: "11:00"}
+      # Tuesday
+      - {lab: "Лабораторија 215 - ТМФ",   day: tue, from: "08:00", to: "09:30"}
+      - {lab: "Лабораторија 3 - ТМФ",     day: tue, from: "18:30", to: "20:00"}
+      # Wednesday
+      - {lab: "Лаборатории 200аб - ТМФ",  day: wed, from: "08:00", to: "09:30"}
+      - {lab: "Лабораторија 13 - ТМФ",    day: wed, from: "09:30", to: "11:00"}
+      - {lab: "Лаборатории 200аб - ТМФ",  day: wed, from: "17:00", to: "18:30"}
+      - {lab: "Лабораторија 12 - ТМФ",    day: wed, from: "18:30", to: "20:00"}
+      # Thursday
+      - {lab: "Лабораторија 3 - ТМФ",     day: thu, from: "11:00", to: "14:00"}
+      - {lab: "Лаборатории 200аб - ТМФ",  day: thu, from: "17:00", to: "18:30"}
+      - {lab: "Лабораторија 138 - ТМФ",   day: thu, from: "18:30", to: "20:00"}
